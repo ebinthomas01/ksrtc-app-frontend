@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import NavBar from './NavBar'
 import NavBar2 from './NavBar2'
+import { Link } from 'react-router-dom'
 
 const AddUser = () => {
         
@@ -96,7 +97,7 @@ const AddUser = () => {
                     <button className="btn btn-warning" onClick={readValue} > CREATE ACCOUNT</button>
                   </div>
                   <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                  <a href='/'> Go Home</a>
+                  <Link to='/'> Go Home</Link>
                   </div>
                 </div>
               </div>

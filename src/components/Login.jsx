@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import NavBar2 from './NavBar2'
 
 const Login = () => {
@@ -84,7 +84,7 @@ const Login = () => {
                         </div>
 
                         <div className="col col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12">
-                            <a href='/AddUser' > <button className="btn btn-primary">Sign Up</button> </a>
+                            <Link to='/AddUser'> <button className="btn btn-primary">Sign Up</button> </Link>
                         </div>
                     </div>
                 </div>
