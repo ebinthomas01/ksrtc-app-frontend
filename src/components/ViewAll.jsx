@@ -5,7 +5,7 @@ import NavBar from './NavBar'
 const ViewAll = () => {
     const [data,changeData] =useState([])
         const fetchData=()=>{
-            axios.get("http://localhost:8080/viewemp").then((response)=>{
+            axios.get("http://13.202.134.208:8080/viewemp").then((response)=>{
                 changeData(response.data)
             }
         ).catch().finally()

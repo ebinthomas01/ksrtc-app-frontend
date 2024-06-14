@@ -27,7 +27,7 @@ const AddUser = () => {
         else  
         {
         console.log(data)
-        axios.post("http://localhost:8080/signup", data).then(
+        axios.post("http://13.202.134.208:8080/signup", data).then(
             (response) => {
                 console.log(response.data)
                 if (response.data.status == "success") 
