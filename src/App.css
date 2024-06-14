@@ -13,6 +13,61 @@
   }
 }
 
+#mainNav {
+  background-color: #e23c22;
+  height: 60px; 
+}
+
+.container1 {
+  background: transparent;
+  position: absolute;
+  top: 40%; left: 2%;
+  text-align: left;
+  font-size: large;
+  font-weight: 600;
+
+
+}
+
+
+
+
+body {
+  background-color: whitesmoke;
+}
+
+.container2 {
+  background: transparent;
+  position: absolute;
+  top: 25%; left: 35%;
+  text-align: left;
+  font-size: large;
+  
+}
+
+button {
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
+  padding: 14px 10px;
+  margin: 10px 5;
+  border: none;
+  width: 50%;
+  
+}
+
+
+
+.container3 {
+  background: transparent;
+  position: absolute;
+  top: 40%; left: 38%;
+  text-align: left;
+  font-size: large;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
