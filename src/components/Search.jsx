@@ -16,7 +16,7 @@ const Search = () => {
     //Search
       const readValue = () => {
         console.log(data)
-        axios.post("http://localhost:8080/search", data).then(
+        axios.post("http://13.202.134.208:8080/search", data).then(
           (response) => {
             setResult(response.data)
           }
