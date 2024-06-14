@@ -5,7 +5,7 @@ const NavBar2 = () => {
     <div>
         <nav id="mainNav" class="NavBar2bar NavBar2bar-expand-lg ">
         <div class="container-fluid"> 
-        <img src='https://www.keralartc.com/storage/images/logo.png' width="340px"/>
+        <img src='https://www.keralartc.com/storage/images/logo.png' width="400px"/>
         </div>
         </nav>
     </div>
